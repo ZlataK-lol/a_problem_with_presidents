@@ -33,3 +33,13 @@ https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Book%3
 
 Reference:
 Birthplace, Birthdate, and Death information of the U.S. Presidents. (n.d.). PresidentsUSA.Net. Retrieved September 28, 2021, from https://www.presidentsusa.net/birth.html
+
+## Solution — Zlata Kovrigina
+
+Run `python3 analyze.py` to create `report.pdf` and `presidents_with_lifespans.csv`.
+
+```bash
+python3 -m pip install -r requirements.txt
+python3 -m pytest -q
+python3 analyze.py
+```
